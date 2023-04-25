@@ -35,6 +35,7 @@ $ rosdep update
 ```
 
 **Workspace**
+
 No terminal criamos uma nova nossa Workspace:
 ```
 $ mkdir -p ~/dev_ws/src
