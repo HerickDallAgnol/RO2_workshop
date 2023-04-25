@@ -3,6 +3,7 @@
 
 **Instalação do ros2:**
 
+
 Instalando o Desktop full:
 
 sudo apt install ros-foxy-desktop python3-argcomplete
@@ -28,6 +29,7 @@ Se a instalacão estiver correta teremos a comunicação dos dois nodo.
 
 **Sistema de Pastas no ROS2**
 
+
 Primeiro temos que ter certeza que estamos rodando a ultima versão dos pacotes do ros, utilizamos:
 ```
 $ sudo apt update
@@ -47,6 +49,7 @@ $ sudo apt install ros-foxy-rosbag2*
 ```
 Os pacotes Build-from-source podem ser dividido em pacotes fornecidos pelo ROS 2 e seus desenvolvedores. Ambos devem ser colocados na pasta src de uma workspace.
 **Deve** ser clonado na pasta src da sua workspace, neste caso, no diretorio dev_ws/src.
+
 ```
 $ cd ~/dev_ws/src
 $ git clone https://github.com/ros/ros_tutorials.git -b foxy-devel
@@ -56,10 +59,12 @@ Podemos ver o que temos dentro da pasta ros_tutorials usando o ls
 $ cd ~/dev_ws/src/ros_tutorials
 $ ls
 ```
+
 Antes de Buildarmos nossa Workspace vamos checar se temos todas as dependencias para o pacote, podemos já ter, mas é recomendado checar toda vez que clonamos algo, nao queremos que depois de um longo tempo de compilação de um erro por falta de alguma dependencia...
 **devemos** estar na "raiz" da nossa workspace para rodar o rosdep.
 
 rodamos primeiro o rosdep init:
+
 ```
 $ sudo rosdep init
 ```
@@ -68,18 +73,22 @@ neste caso, estando no diretorio ~/dev_ws rodamos no rosdep:
 ```
 $  rosdep install --from-paths src --ignore-src -r -y
 ```
+
 Este comando instala magicamente todos os pacotes dos quais os pacotes na sua workspacedependem, mas estão faltando em seu computador.
+
 
 Sempre lembrando de dar source por garantia antes de buildar.
 ```
 $ source /opt/ros/foxy/setup.bash
 $ colcon build --symlink-install
 ```
-podemos dar source indo ate a raiz da nossa workspace e usando:
-``
+
+Podemos dar source indo ate a raiz da nossa workspace e usando:
+```
 $ cd ~/dev_ws/src
 $ source install/local_setup.sh
 ```
+
 assim garantindo que estamos buscando os arquivos na workspace certa!
 
 
