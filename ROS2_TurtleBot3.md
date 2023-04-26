@@ -56,6 +56,35 @@ $ source install/local_setup.sh
 $ export TURTLEBOT3_MODEL=waffle
 $ ros2 run turtlebot3_teleop teleop_keyboard
 ```
+#Simulação SLAM 
+
+O SLAM (Simultaneous Localization and Mapping) é uma técnica para desenhar um mapa estimando a localização atual em um espaço arbitrário.
+
+## Mapeamento
+
+Iniciamos o TurtleBot3 World:
+```
+$ source install/local_setup.sh
+$ export TURTLEBOT3_MODEL=waffle
+$ ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+```
+
+Em um novo terminal rodamos o Cartographer SLAM:
+```
+$ source install/local_setup.sh
+$ export TURTLEBOT3_MODEL=waffle
+$ ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
+```
+Dicas para criar um bom mapa:
+  + Tente dirigir o mais devagar possível.
+  + Evite dirigir linearmente e girar ao mesmo tempo.
+  + Não dirija muito perto dos obstáculos.
+
+Para salvar o mapa abrimos um novo terminal e rodamos:
+```
+ros2 run nav2_map_server map_saver_cli -f my_map
+```
+
 
 
 
