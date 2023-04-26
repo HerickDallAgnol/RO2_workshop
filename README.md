@@ -1,6 +1,6 @@
 # RO2_workshop
-(http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-(https://img.shields.io/badge/-Ubunto%2020.04-green)
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+![Badge Ubunto](https://img.shields.io/badge/-Ubunto%2020.04-green)
 
 ![This is an image](https://www.freshconsulting.com/wp-content/uploads/2022/07/ROS-2_logo.png)
 
