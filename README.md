@@ -3,18 +3,24 @@
 
 **Instalação do ros2: :robot:**
 
-
 ## Instalando o Desktop full:
 
+```
 sudo apt install ros-foxy-desktop python3-argcomplete
+```
+
 Direcionando a source:
+
 ```
 $ source /opt/ros/foxy/setup.bash
 ```
+
 Utilizamos o:
+
 ```
 $ nano ~/.bashrc
 ```
+
 para setar em nosso terminal.
 
 Testando a instalação atraves dos nodos de demonstração:
