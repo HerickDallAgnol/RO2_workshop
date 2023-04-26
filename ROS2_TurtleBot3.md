@@ -85,7 +85,24 @@ Para salvar o mapa abrimos um novo terminal e rodamos:
 ros2 run nav2_map_server map_saver_cli -f my_map
 ```
 
+## Navegação
 
+Para navegação devemos abrir a simulação no gazebo:
+```
+$ source install/local_setup.sh
+$ export TURTLEBOT3_MODEL=waffle
+$ ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+```
+Em outro terminal rodamos o nodo de navegação:
+```
+$ source install/local_setup.sh
+$ export TURTLEBOT3_MODEL=waffle
+ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=$HOME/map.yaml
+```
+<sub>NOTA:map:= "Diretorio aonde foi salvo seu mapa" </sub>
 
+**No rviz:**
 
+Para realizar a navegação autonoma, deve se clicar em ***2D POSE ESTIMATE*** aonde estimamos a posição do nosso robô
 
+Após isso podemos clicar em ***Navigation2 GO*** selecionando um local para o robô navegar.
