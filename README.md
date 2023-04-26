@@ -4,7 +4,7 @@
 **Instalação do ros2: :robot:**
 
 
-Instalando o Desktop full:
+## Instalando o Desktop full:
 
 sudo apt install ros-foxy-desktop python3-argcomplete
 Direcionando a source:
@@ -27,7 +27,7 @@ $ ros2 run demo_nodes_py listener
 ```
 Se a instalacão estiver correta teremos a comunicação dos dois nodo.
 
-**Sistema de Pastas no ROS2**
+## Sistema de Pastas no ROS2
 
 
 Primeiro temos que ter certeza que estamos rodando a ultima versão dos pacotes do ros, utilizamos:
@@ -36,7 +36,7 @@ $ sudo apt update
 $ rosdep update
 ```
 
-**Workspace**
+## Workspace
 
 No terminal criamos uma nova nossa Workspace:
 ```
@@ -60,10 +60,11 @@ $ cd ~/dev_ws/src/ros_tutorials
 $ ls
 ```
 
-Antes de Buildarmos nossa Workspace vamos checar se temos todas as dependencias para o pacote, podemos já ter, mas é recomendado checar toda vez que clonamos algo, nao queremos que depois de um longo tempo de compilação de um erro por falta de alguma dependencia...
-**devemos** estar na "raiz" da nossa workspace para rodar o rosdep.
+Antes de Buildarmos nossa Workspace vamos checar se temos todas as dependencias para o pacote, podemos já ter, mas é recomendado checar toda vez que clonamos algo, nao queremos que depois de um longo tempo de compilação de um erro por falta de alguma dependencia...  
 
-rodamos primeiro o rosdep init:
+**Devemos estar na "raiz" da nossa workspace para rodar o rosdep.**
+
+Rodamos primeiro o rosdep init:
 
 ```
 $ sudo rosdep init
@@ -75,7 +76,6 @@ $  rosdep install --from-paths src --ignore-src -r -y
 ```
 
 Este comando instala magicamente todos os pacotes dos quais os pacotes na sua workspacedependem, mas estão faltando em seu computador.
-
 
 Sempre lembrando de dar source por garantia antes de buildar.
 ```
