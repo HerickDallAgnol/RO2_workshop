@@ -3,19 +3,19 @@
 
 ## Instalação dos pacotes necessários:
   1. Gazebo
-    ```
-    $ sudo apt-get install ros-foxy-gazebo-*
-    ```
+```
+$ sudo apt-get install ros-foxy-gazebo-*
+```
   2. Cartographer
-    ```
-    $ sudo apt install ros-foxy-cartographer
-    $ sudo apt install ros-foxy-cartographer-ros
-    ```
+```
+$ sudo apt install ros-foxy-cartographer
+$ sudo apt install ros-foxy-cartographer-ros
+```
   3. Navigation2
-    ```
-    $ sudo apt install ros-foxy-navigation2
-    $ sudo apt install ros-foxy-nav2-bringup
-    ```
+```
+$ sudo apt install ros-foxy-navigation2
+$ sudo apt install ros-foxy-nav2-bringup
+```
     
 Instalação dos pacotes do TurtleBot3:
 
