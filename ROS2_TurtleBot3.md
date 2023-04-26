@@ -56,7 +56,7 @@ $ source install/local_setup.sh
 $ export TURTLEBOT3_MODEL=waffle
 $ ros2 run turtlebot3_teleop teleop_keyboard
 ```
-#Simulação SLAM 
+# Simulação SLAM 
 
 O SLAM (Simultaneous Localization and Mapping) é uma técnica para desenhar um mapa estimando a localização atual em um espaço arbitrário.
 
