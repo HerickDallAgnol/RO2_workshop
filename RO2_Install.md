@@ -3,7 +3,7 @@
 
 # Instalação do ros2: :robot:
 
-## Instalando o Desktop full:
+Instalando o Desktop full:
 
 ```
 $ sudo apt install ros-foxy-desktop python3-argcomplete
