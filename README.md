@@ -5,11 +5,11 @@ O Robot Operating System (ROS) é um conjunto de bibliotecas de software e ferra
 
 Este "repositorio" contém instruções para:
 
-## instalação do ROS2:
+## Instalação do ros2: [Contribution guidelines for this project](docs/ROS2_install.md)
   + Instalação dos pacotes.
   + Configuração da workspace.
   
-## Uso do TurtleBot3:
+## Uso do TurtleBot3: [Contribution guidelines for this project](docs/ROS2_TurtleBot3.md)
   + Instalação de pacotes 
   + Implementação da simulação no Gazebo
   + Simulação do SLAM (Simultaneous Localization and Mapping)
