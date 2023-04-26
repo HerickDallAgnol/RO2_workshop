@@ -9,7 +9,7 @@ Este "repositorio" contém instruções para:
   + Instalação dos pacotes.
   + Configuração da workspace.
   
-## Uso do TurtleBot3:  ![This is an image](https://i0.wp.com/www.robo-dyne.com/wp-content/uploads/2021/10/Turtlebot3_logo.png?resize=883%2C875&ssl=1)
+## Uso do TurtleBot3:
   + Instalação de pacotes 
   + Implementação da simulação no Gazebo
   + Simulação do SLAM (Simultaneous Localization and Mapping)
