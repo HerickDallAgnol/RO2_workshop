@@ -9,9 +9,8 @@ Este "repositorio" contém instruções para:
   + Instalação dos pacotes.
   + Configuração da workspace.
   
-## [Uso do TurtleBot3: ](https://github.com/HerickDallAgnol/RO2_workshop/blob/main/ROS2_TurtleBot3.md)
+## [Uso do TurtleBot3: ](ROS2_TurtleBot3.md)
   + Instalação de pacotes 
   + Implementação da simulação no Gazebo
   + Simulação do SLAM (Simultaneous Localization and Mapping)
   
-
