@@ -17,7 +17,7 @@ $ sudo apt install ros-foxy-navigation2
 $ sudo apt install ros-foxy-nav2-bringup
 ```
     
-**Instalação dos pacotes do TurtleBot3:
+**Instalação dos pacotes do TurtleBot3:**
 
 Deve estar dentro da pasta src
 
