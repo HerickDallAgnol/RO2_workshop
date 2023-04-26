@@ -1,7 +1,7 @@
 # RO2_workshop
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-**Instalação do ros2:**
+**Instalação do ros2: :robot:**
 
 
 Instalando o Desktop full:
