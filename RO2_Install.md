@@ -1,5 +1,6 @@
 # RO2_workshop
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 
 # Instalação do ros2: :robot:
 
