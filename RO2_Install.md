@@ -4,6 +4,8 @@
 
 # Instalação do ros2: :robot:
 
+Esse tutorial foi feito no Ubunto 20.04
+
 Instalando o Desktop full:
 
 ```
