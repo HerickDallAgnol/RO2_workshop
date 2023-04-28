@@ -120,6 +120,6 @@ Para realizar a navegação autonoma, deve se clicar em ***2D POSE ESTIMATE*** a
 
 Após isso podemos clicar em ***Navigation2 GO*** selecionando um local para o robô navegar.
 
-![gif](save.gif)
+![](https://github.com/HerickDallAgnol/RO2_workshop/blob/main/save.gif)
 
 
