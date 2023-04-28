@@ -120,7 +120,6 @@ Para realizar a navegação autonoma, deve se clicar em ***2D POSE ESTIMATE*** a
 
 Após isso podemos clicar em ***Navigation2 GO*** selecionando um local para o robô navegar.
 
-x-special/nautilus-clipboard
-copy
-file:///home/dallagnol/%C3%81rea%20de%20Trabalho/save.gif
+![gif](save.gif)
+
 
