@@ -19,10 +19,7 @@ $ sudo apt install ros-foxy-nav2-bringup
     
 **Instalação dos pacotes do TurtleBot3:**
 
-Deve estar dentro da pasta src
-
 ```
-$ cd ~/dev_ws/src
 $ sudo apt install ros-foxy-dynamixel-sdk
 $ sudo apt install ros-foxy-turtlebot3-msgs
 $ sudo apt install ros-foxy-turtlebot3
