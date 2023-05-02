@@ -80,12 +80,20 @@ $ source install/local_setup.sh
 $ export TURTLEBOT3_MODEL=waffle
 $ ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
 ```
+
+iniciamos o nodo de teleoperação em outro terminal:
+```
+$ source install/local_setup.sh
+$ export TURTLEBOT3_MODEL=waffle
+$ ros2 run turtlebot3_teleop teleop_keyboard
+```
+
 Dicas para criar um bom mapa:
   + Tente dirigir o mais devagar possível.
   + Evite dirigir linearmente e girar ao mesmo tempo.
   + Não dirija muito perto dos obstáculos.
 
-Lembrando que para teleguiar 
+(Lembrando que para teleguiar devemos estar no nodo de teleoperação)
 
 ![image](https://user-images.githubusercontent.com/112727443/235186381-78adb2b3-a094-415a-8698-87dd8290886a.png)
 
