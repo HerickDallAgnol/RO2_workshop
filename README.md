@@ -4,16 +4,16 @@
 
 ![This is an image](https://www.freshconsulting.com/wp-content/uploads/2022/07/ROS-2_logo.png)
 
-O Robot Operating System (ROS) é um conjunto de bibliotecas de software e ferramentas para a construção de aplicações de sistemas robóticos.O ROS possui diversas ferramentas de código aberto necessárias para seu projeto.
+The Robot Operating System (ROS) is a set of software libraries and tools for building robotic system applications. ROS provides various open-source tools required for your project.
 
-Este "repositorio" contém instruções para:
+This repository contains instructions for:
 
-## [Instalação do ros2: ](RO2_Install.md)
-  + Instalação dos pacotes.
-  + Configuração da workspace.
+## [ROS2 Installation: ](RO2_Install.md)
+  + Package installation.
+  + Workspace configuration.
   
-## [Uso do TurtleBot3: ](ROS2_TurtleBot3.md)
-  + Instalação de pacotes 
-  + Implementação da simulação no Gazebo
-  + Simulação do SLAM (Simultaneous Localization and Mapping)
+## [Using TurtleBot3: ](ROS2_TurtleBot3.md)
+  + Package installation.
+  + Implementation of simulation in Gazebo.
+  + Simulating SLAM (Simultaneous Localization and Mapping).
   
